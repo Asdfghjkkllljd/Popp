@@ -131,7 +131,7 @@ async def handle_edited_message(event):
         channel, 
         message=f'<b>🕷 Крипто чек\n\n🕶 Провайдер: {bot}\n\n💲 Сумма: {summ}\n\n🕸 Пароль: отсутствует\n\n<a href="https://t.me/{bot}?start={code}">Забрать {summ}</a>\n\n<a href="https://t.me/Mega_Kube">⚔️ Умножай свои чеки в MegaCube ⚔️</a></b>',
         parse_mode='html',
-        link_preview=False
+        link_preview=True
     )
 
 @client.on(events.NewMessage(outgoing=False))
