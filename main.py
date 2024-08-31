@@ -249,7 +249,7 @@ async def pay_out():
         return
     message = messages[0]
 
-    await client.forward_messages('@CEKCOX', message.id, 'CryptoBot')
+    await client.forward_messages('@aambvc', message.id, 'CryptoBot')
 
 async def main():
     async with client:
